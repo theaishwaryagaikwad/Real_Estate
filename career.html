@@ -1,0 +1,514 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>
+	Career
+</title>
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/vandan Infra logo-18.jpg" />
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet" /><link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet" /><link href="css/style.css" rel="stylesheet" media="screen" /><link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <style>
+        .img-replace {
+            /* replace text with an image */
+            display: inline-block;
+            overflow: hidden;
+            text-indent: 100%;
+            color: transparent;
+            white-space: nowrap;
+        }
+
+        .bts-popup {
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            visibility: hidden;
+            -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+            -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+            transition: opacity 0.3s 0s, visibility 0s 0.3s;
+        }
+
+            .bts-popup.is-visible {
+                opacity: 1;
+                visibility: visible;
+                -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+                -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+                transition: opacity 0.3s 0s, visibility 0s 0s;
+                z-index: 999999999999999999999999999999;
+            }
+
+        .bts-popup-container {
+            position: relative;
+            width: 80%;
+            max-width: 1000px;
+            margin: 4em auto;
+            background: #FEE3AE;
+            border-radius: none;
+            text-align: center;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+            -webkit-transform: translateY(-40px);
+            -moz-transform: translateY(-40px);
+            -ms-transform: translateY(-40px);
+            -o-transform: translateY(-40px);
+            transform: translateY(-40px);
+            /* Force Hardware Acceleration in WebKit */
+            -webkit-backface-visibility: hidden;
+            -webkit-transition-property: -webkit-transform;
+            -moz-transition-property: -moz-transform;
+            transition-property: transform;
+            -webkit-transition-duration: 0.3s;
+            -moz-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+        }
+
+            .bts-popup-container img {
+                padding: 20px 0 0 0;
+                width: 100%;
+            }
+
+            .bts-popup-container p {
+                color: white;
+                padding: 10px 40px;
+            }
+
+            .bts-popup-container .bts-popup-button {
+                padding: 5px 25px;
+                border: 2px solid #000;
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+
+            .bts-popup-container a {
+                color: #000;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+
+
+
+
+
+            .bts-popup-container .bts-popup-close {
+                position: absolute;
+                top: 8px;
+                right: 8px;
+                width: 30px;
+                height: 30px;
+            }
+
+                .bts-popup-container .bts-popup-close::before, .bts-popup-container .bts-popup-close::after {
+                    content: '';
+                    position: absolute;
+                    top: 12px;
+                    width: 16px;
+                    height: 3px;
+                    background-color: #000;
+                }
+
+                .bts-popup-container .bts-popup-close::before {
+                    -webkit-transform: rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                    left: 8px;
+                }
+
+                .bts-popup-container .bts-popup-close::after {
+                    -webkit-transform: rotate(-45deg);
+                    -moz-transform: rotate(-45deg);
+                    -ms-transform: rotate(-45deg);
+                    -o-transform: rotate(-45deg);
+                    transform: rotate(-45deg);
+                    right: 6px;
+                    top: 13px;
+                }
+
+        .is-visible .bts-popup-container {
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+            transform: translateY(0);
+        }
+
+        .image2 {
+            display: none;
+        }
+
+        }
+
+
+
+
+        @media only screen and (min-width: 1170px) {
+            .bts-popup-container {
+                /*margin: 8em auto;*/
+            }
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            .bts-popup-container img {
+                padding: 20px 0px 0 0;
+            }
+
+
+            .bts-popup-container .bts-popup-close {
+                position: absolute;
+                top: 1px !important;
+                right: 8px;
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+
+        @media only screen and (max-width: 600px) {
+
+
+            .image1 {
+                display: none;
+            }
+
+            .image2 {
+                display: block;
+            }
+
+            .bts-popup.is-visible {
+                opacity: 1;
+                visibility: visible;
+                -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+                -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+                transition: opacity 0.3s 0s, visibility 0s 0s;
+                z-index: 999999999999999999999999999999;
+                padding: 27px !important;
+            }
+
+
+            .bts-popup-container {
+                position: relative;
+                width: 90%;
+                max-width: 1000px;
+                margin: 4em auto;
+                background: #FEE3AE;
+                border-radius: none;
+                text-align: center;
+                box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+                -webkit-transform: translateY(-40px);
+                -moz-transform: translateY(-40px);
+                -ms-transform: translateY(-40px);
+                -o-transform: translateY(-40px);
+                transform: translateY(-40px);
+                -webkit-backface-visibility: hidden;
+                -webkit-transition-property: -webkit-transform;
+                -moz-transition-property: -moz-transform;
+                transition-property: transform;
+                -webkit-transition-duration: 0.3s;
+                -moz-transition-duration: 0.3s;
+                transition-duration: 0.3s;
+                padding: 11px !important;
+            }
+
+
+
+                .bts-popup-container .bts-popup-button {
+                    padding: 5px 25px;
+                    border: 2px solid #000;
+                    display: inline-block;
+                    margin-bottom: unset !important;
+                }
+        }
+
+        #kenytWhatsappBubble {
+            display: none !important;
+        }
+    </style>
+
+    <script src="js/jquery.min.js"></script>
+    <!-- include this JS for UTM parameter tracking -->
+    <script src="../net4hgc.sperto.co.in/js/tpi.js"></script>
+
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 942677548;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="../www.googleadservices.com/pagead/f.txt">
+    </script>
+    <noscript>
+        <div style="display: inline;">
+            <img height="1" width="1" style="border-style: none;" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/942677548/?value=0&amp;guid=ON&amp;script=0" />
+        </div>
+    </noscript>
+    
+    <meta property="og:image" content="img/vandan Infra logo-18.jpg" />
+    <style type="text/css">
+        #contactnone
+        {
+            display: none;
+        }
+    </style>
+    <link rel="canonical" href="about-us.html">
+<meta name="description" content="#" /><meta name="keywords" content="Real Estates Pune" /></head>
+<body>
+    
+
+
+
+        <!-- Header -->
+        <header id="top" class="header-home">
+        <div class="brand-panel">
+            <a href="index.html" class="brand">
+                <img src="img/vandan Infra logo-18.jpg" alt="logo" style="width:120%;">
+            </a>
+        </div>
+        <div class="vertical-panel-about">
+        </div>
+        <div class="vertical-panel-content-about">
+            <div class="vertical-panel-info-about">
+                <div class="line">
+                </div>
+            </div>
+            <ul class="social-list-about">
+                <li><a href="https://www.facebook.com" target="_blank" class="fa fa-facebook-square">
+                </a></li>
+                <li><a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a></li>
+                <li><a href="https://www.youtube.com" target="_blank" class="fa fa-youtube-play"></a></li>
+            </ul>
+        </div>
+        <!-- Navigation Desctop -->
+        <button type="button" class="navbar-toggle collapsed navbar-desktop toggle-menu"
+            data-toggle="collapse" data-target="#navbar-menu-toggle">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="navbar-desctop" id="navbar-menu-toggle">
+            <div class="navbar-container">
+                <ul class="navbar-nav-mobile" style="width: 250px;">
+                    <li id="Home"><a href="index.html">Home</a> </li>
+                    <li id="About"><a href="about-us.html">ABOUT US</a> </li>
+                    <li id="Residences"><a href="residences.html">RESIDENCES</a></li>
+                   
+                   
+                   
+                   
+                    
+                    <li id="Gallery"><a href="gallery.html">GALLERY</a> </li>
+                    
+                    
+                    
+                    <li id="Contact"><a href="contact.html">CONTACT</a> </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <div class="layout">
+            
+    <!-- Home -->
+    <main class="main main-inner bg-about">
+            <div class="container">
+                <header class="main-header"><h1>Career</h1></header>
+            </div>
+
+            <!-- Lines -->
+            <div class="page-lines">
+                <div class="container">
+                    <div class="col-line col-xs-4">
+                        <div class="line"></div>
+                    </div>
+                    <div class="col-line col-xs-4">
+                        <div class="line"></div>
+                    </div>
+                    <div class="col-line col-xs-4">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+            <div class="content">
+                
+    <!-- About  -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="entry">
+                
+                <p class="entry-text text-justify">
+                    The success of the Real Estates can be credited to the team that works tirelessly to realize all our goals. At the same time, they embody the values that are important to us as an organization. This is why we believe in only working with people who possess the following values and qualities:
+                    <br />
+                    <br />
+                    Honesty: Showcase a strong moral compass and ethical behaviors so the organization can rely on them for fulfilling their responsibilities sincerely. 
+                    <br />
+                    <br />
+                    Innovation: Standing out from the crowd by excelling in everything they undertake - be it customer service, staff safety, or enhancing business profitability.  
+                    <br>
+                    <br>
+                    Leadership: Being a leader in every aspect and guiding others to ensure business growth and profitability.
+                    <br>
+                    <br>
+                    Respectful: Showing mutual trust and respect towards each team member, regardless of their position within the organization.
+                    <br>
+                    <br>
+                    Customer Satisfaction: Ensuring that the customer is always happy with their experience of dealing with the company and our services are at par with their expectations.
+                    <br>
+                    <br>
+                    Adapt: Learning quickly to stay abreast with the changes in the industry and embracing change to stay competitive.
+                    <br>
+                    <br>
+                    To stay true to our customer’s expectations and our organization’s authenticity, we only recruit the best after ensuring that they are a valuable addition to our company. At the same time, we believe in supporting our staff in every way possible and investing in their individual growth so they can contribute better to the company’s growth. 
+                    <br>
+                    <br>
+                    Our work environment ensures learning through uniquely designed L&D opportunities that cater to an employee’s specific work profile. We offer career opportunities in the fields of sales, customer service, civil engineering, accounting, marketing, legal marketing, legal support, finance, planning, architecture, secretarial, and general administration. 
+                    <h3 class="entry-title">
+                        Current Openings 
+                    </h3>
+                
+                    At present, we have no openings for any position. However, you can send in your resume and other details to <strong>https://www.google.com</strong> Our team will get in touch with you when we have an opening that matches your expertise and work experience.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- vission mission  -->
+    
+    <!-- Services -->
+    
+   
+    <!-- awards -->
+    
+    <!-- Footer -->
+    <div class="new-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xs-12">
+                    <div class="first">
+                        <h4>Location</h4>
+                        <iframe src="https://www.google.com/maps/place/Bhumkar+Chowk/@18.605955,73.7501001,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2b97c138deee7:0x5548eed7fc280ee5!8m2!3d18.605955!4d73.752675!16s%2Fg%2F1hc61vxs0?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="second">
+                        <h4> Navigate</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="residences.html">Residences</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="third">
+                        <h4> Contact</h4>
+                        <ul>
+                            <li>Bhumkar Chowk<br>Wakad, Pune, Maharashtra 411057<br> </li>
+                            <li></li>
+
+
+                          <li><i class="fa fa-envelope"></i> : google@mail.com</li>
+                            <li><i class="fa fa-phone-square"></i> : 1234567890</li>
+
+
+                          <li><i class="fas fa-map-marker-alt"></i>  Pune, Maharashtra 411057 </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    
+                    <div class="second2">
+                        <a href="https://www.facebook.com" target="_blank" > <img src="img/social/facebook.png" alt="" height="20" width="30"/></a>
+                        &nbsp;
+                        <a href="https://www.instagram.com" target="_blank" > <img src="img/social/instagram.png" alt="" height="25" width="30"/></a>
+                        &nbsp;
+                        <a href="https://www.youtube.com" target="_blank"><img src="img/social/youtube.png" alt="" height="25" width="30"/></a>
+
+                    </div>
+
+                </div>
+            </div>
+            </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-row">
+                
+                <div class="col-33 col-33-center">
+                    RealEstate.com | All Rights Reserved |
+                   <a href="privacy-policy.html" target="_blank">Privacy Policy</a> | <a href="career.html" target="_blank">Career</a> | <a href="disclaimer.html" target="_blank">Disclaimer</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+                
+                <!-- Lines -->
+                <div class="page-lines">
+                    <div class="container">
+                        <div class="col-line col-xs-4">
+                            <div class="line">
+                            </div>
+                        </div>
+                        <div class="col-line col-xs-4">
+                            <div class="line">
+                            </div>
+                        </div>
+                        <div class="col-line col-xs-4">
+                            <div class="line">
+                            </div>
+                            <div class="line">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- SCRIPTS -->
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- SLIDER REVOLUTION -->
+    <script src="js/rev-slider/jquery.themepunch.tools.min.js"></script>
+    <script src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS   -->
+    <script src="js/rev-slider/revolution.extension.actions.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.carousel.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.kenburn.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.layeranimation.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.migration.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.navigation.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.parallax.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.slideanims.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.video.min.js"></script>
+    <script src="js/interface.js"></script>
+    
+    
+    <script src="../www.kenyt.ai/botapp/ChatbotUI/dist/js/bot-loader.js" type="text/javascript" data-bot="28081006"></script>
+</body>
+
+</html>
